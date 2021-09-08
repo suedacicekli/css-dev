@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-     font-family: 'Poppins'
+     font-family: Inter ;
 }
 ul,nav{
     list-style: none;
@@ -82,13 +82,14 @@ section p {
     position: relative;
     justify-content: center;
     min-height: 100vh;
-    color: #fff;
+    color: rgb(255, 247, 247);
     text-align: center;
+    
 
 }
 
 .banner-alani .banner-img{
-    background-image: url("deneme.jpg");
+    background-image: url("sa.jpg");
     position: absolute;
     top: 0;
     left: 0;
@@ -107,12 +108,12 @@ section p {
     width: 100%;
     height: 100%;
     background-color: #000;
-    opacity: 0.7;
+    opacity: 0.2;
 }
 
 .banner-alani h1{
-    margin-bottom: 15px;
-    font-size: 65px;
+    margin-bottom: 25px;
+    font-size: 105px;
 }
 
 .banner-alani h3 {
@@ -121,7 +122,7 @@ section p {
 }
 .banner-alani a.banner-contact{
     padding: 10px 30px;
-    background: #ffaa00;
+    background: rgba(255, 170, 0, 0.555);
     border-radius: 50px;
     text-transform: uppercase;
 }
@@ -142,15 +143,18 @@ ul.about-content{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 
 .about-content li{
-    padding: 20px;
+    padding: 40px;
     height: 290px;
     background-clip: content-box;
     -webkit-background-size: cover;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
+
 
 }
 
@@ -178,4 +182,219 @@ a.about-rigth{
     margin-bottom: 5%;
 }
 
+.about-content h2{
+    margin-bottom: 5%;
+} 
 
+/************** About ************/
+.kutucuk{
+    font-size: 25px ;
+    color: black;
+}
+.body {
+    margin: 10;
+    padding: 10;
+    background: url(sa.jpg); 
+    background-size: 200% 200%; 
+    background-size: cover;
+}
+
+.box{
+    width: 450px;
+    background: rgba(221,220,221,255);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15%;
+    border-radius: 15%;
+    color: rgb(3, 3, 3);
+    font-family: Inter;
+    
+}
+
+.box img {
+
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.box img:hover{
+    transform: scale(0.9);
+}
+
+.box h1{
+    font-size: 35px;
+    margin-bottom: 4%;
+    margin-top: 4%;
+    font-weight: 200px;
+}
+
+.box h5{
+     
+     font-size: 11px;
+     font-weight: 200;
+}
+.box p{
+    text-align: justify;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.box li{
+    display: inline-block;
+    margin: 8px;
+    margin-left: 95px;
+    list-style: none;
+
+}
+.box li a{
+    color: rgb(8, 8, 6);
+    font-size: 40px;
+    transition: all ease-in-out 250ms;
+
+}
+
+/************** About ************/
+
+section {
+    text-align: left;
+}
+
+article {
+   text-align: center;
+
+}
+
+article table {
+    width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+table tr th img {
+    width:300px ;
+    height: 300px ;
+    
+}
+
+.product-area {
+    max-width: 800px;
+    margin-bottom: 35px;
+    line-height: 1.5;
+    text-align: left;
+    padding-left: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.asdasd li{
+    margin: 0 25px;
+}
+
+.icon-social  {
+    justify-content: center;
+    
+
+}
+/************ SERRVİCES********/
+.services-area h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 5%;
+
+}
+.services-area {
+    background-color:  rgba(221,220,221,255);
+}
+.services-area li{
+    text-align: center;
+    padding:  0 30px;
+    flex-basis: 33%;
+}
+.services-area li i {
+    font-size: 60px;
+}
+.services-area h2{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.services-area ul{
+    width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-p p{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/** contact **/
+
+.contact-area h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 5%;
+
+}
+
+.contact-area li{
+    text-align: center;
+    padding:  0 30px;
+    flex-basis: 33%;
+}
+.contact-area li i {
+    font-size: 60px;
+}
+.contact-area h2{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.contact-area ul{
+    width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-p p{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+footer{
+    width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 40px;
+    align-items: center;
+
+}
